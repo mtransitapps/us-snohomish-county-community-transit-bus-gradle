@@ -6,7 +6,7 @@ declare -a SUBMODULES=(
 	"commons-android"
 	"app-android"
 );
-if [ -d "parser" ]; then
+if [ -d "agency-parser" ]; then
     SUBMODULES+=('parser');
     SUBMODULES+=('agency-parser');
 fi
